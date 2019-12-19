@@ -1,0 +1,1466 @@
+{
+    "openapi": "3.0.0",
+    "servers": [
+        "httpsexample.com\/"
+    ],
+    "paths": {
+        "\/customers": {
+            "get": {
+                "summary": "Get Customers",
+                "description": "Gets a list of 15 customers",
+                "operationId": "CustomersGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}": {
+            "get": {
+                "summary": "Get Customers",
+                "description": "\/customers\/{customerid}.",
+                "operationId": "CustomersByCustomerIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customers",
+                "description": "\/customers\/{customerid}.",
+                "operationId": "CustomersByCustomerIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "companyName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "custom1",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "identifier",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "firstName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "lastName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "middleName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "jobTitle",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "phone",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "phone2",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "website",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "defaultAddressId",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customers",
+                "description": "\/customers\/{customerid}.",
+                "operationId": "CustomersByCustomerIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/": {
+            "post": {
+                "summary": "Post Customers",
+                "description": "Add a new customer",
+                "operationId": "CustomersPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "companyName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "custom1",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "identifier",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "firstName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "lastName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "middleName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "jobTitle",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "phone",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "phone2",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "website",
+                        "in": "formData",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/notes": {
+            "get": {
+                "summary": "Get Customers Notes",
+                "description": "\/customers\/{customerid}\/notes.",
+                "operationId": "CustomersNotesByCustomerIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Customers Notes",
+                "description": "\/customers\/{customerid}\/notes.",
+                "operationId": "CustomersNotesByCustomerIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "note",
+                        "in": "formData",
+                        "description": "Max Length 2048"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/notes\/{noteId}": {
+            "get": {
+                "summary": "Get Customers Notes",
+                "description": "\/customers\/{customerid}\/notes\/{noteid}.",
+                "operationId": "CustomersNotesByCustomerIdAndNoteIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "noteId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customers Notes",
+                "description": "\/customers\/{customerid}\/notes\/{noteid}.",
+                "operationId": "CustomersNotesByCustomerIdAndNoteIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "note",
+                        "in": "formData",
+                        "description": "Max Length 2048"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "noteId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customers Notes",
+                "description": "\/customers\/{customerid}\/notes\/{noteid}.",
+                "operationId": "CustomersNotesByCustomerIdAndNoteIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "noteId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/vaults\/": {
+            "get": {
+                "summary": "Get Customers Vaults",
+                "description": "Retrieve customer's payment vaults",
+                "operationId": "CustomersVaultsByCustomerIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/vaults\/{vaultId}": {
+            "get": {
+                "summary": "Get Customers Vaults",
+                "description": "\/customers\/{customerid}\/vaults\/{vaultid}.",
+                "operationId": "CustomersVaultsByCustomerIdAndVaultIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "vaultId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customers Vaults",
+                "description": "\/customers\/{customerid}\/vaults\/{vaultid}.",
+                "operationId": "CustomersVaultsByCustomerIdAndVaultIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "vaultId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/vaults": {
+            "post": {
+                "summary": "Post Customers Vaults",
+                "description": "\/customers\/{customerid}\/vaults (card).",
+                "operationId": "CustomersVaultsByCustomerIdPost2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "cardNumber",
+                        "in": "formData",
+                        "description": "5105105105105100,\n5105-1051-0510-5100,\n5105 1051 0510 5100"
+                    },
+                    {
+                        "name": "cardExpMonth",
+                        "in": "formData",
+                        "description": "1-12"
+                    },
+                    {
+                        "name": "cardExpYear",
+                        "in": "formData",
+                        "description": "YYYY, YY"
+                    },
+                    {
+                        "name": "address",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "city",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "state",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "zip",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressId",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/vaults\/{achVault}": {
+            "put": {
+                "summary": "Put Customers Vaults ACH Vault",
+                "description": "\/customers\/{customerid}\/vaults\/{vaultid} (ach).",
+                "operationId": "CustomersVaultsByCustomerIdAndAchVaultPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "achAccountType",
+                        "in": "formData",
+                        "description": "CHECKING, SAVINGS"
+                    },
+                    {
+                        "name": "achType",
+                        "in": "formData",
+                        "description": "CCD, PPD, TEL, WEB"
+                    },
+                    {
+                        "name": "address",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "city",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "state",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "zip",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressId",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "achVault",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/vaults\/{cardVault}": {
+            "put": {
+                "summary": "Put Customers Vaults Card Vault",
+                "description": "\/customers\/{customerid}\/vaults\/{vaultid} (card).",
+                "operationId": "CustomersVaultsByCustomerIdAndCardVaultPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "cardExpMonth",
+                        "in": "formData",
+                        "description": "1-12"
+                    },
+                    {
+                        "name": "cardExpYear",
+                        "in": "formData",
+                        "description": "YYYY, YY"
+                    },
+                    {
+                        "name": "address",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "city",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "state",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "zip",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressId",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "cardVault",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/addresses": {
+            "get": {
+                "summary": "Get Customers Addresses",
+                "description": "Gets a list of a customer's addresses.",
+                "operationId": "CustomersAddressesByCustomerIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Customers Addresses",
+                "description": "\/customers\/{customerid}\/addresses\/.",
+                "operationId": "CustomersAddressesByCustomerIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "address",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "city",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "state",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "country",
+                        "in": "formData",
+                        "description": "Text, Max Length 32"
+                    },
+                    {
+                        "name": "zip",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customers\/{customerId}\/addresses\/{addressId}": {
+            "get": {
+                "summary": "Get Customers Addresses",
+                "description": "\/customers\/{customerid}\/addresses\/{addressid}.",
+                "operationId": "CustomersAddressesByCustomerIdAndAddressIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customers Addresses",
+                "description": "\/customers\/{customerid}\/addresses\/{addressid}.",
+                "operationId": "CustomersAddressesByCustomerIdAndAddressIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "address",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "city",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "state",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "country",
+                        "in": "formData",
+                        "description": "Text, Max Length 32"
+                    },
+                    {
+                        "name": "zip",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customers Addresses",
+                "description": "\/customers\/{customerid}\/addresses\/{addressid}.",
+                "operationId": "CustomersAddressesByCustomerIdAndAddressIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions": {
+            "post": {
+                "summary": "Post Transactions",
+                "description": "\/transactions\/ (swiped cc).",
+                "operationId": "TransactionsPost6",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "cardTrack",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "action",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "amountBase",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "billingFirstName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "billingLastName",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "billingCompanyName",
+                        "in": "formData",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/": {
+            "get": {
+                "summary": "Get Transactions",
+                "description": "Not Available At Time at Time of Publishing this collection: Get a list of transactions",
+                "operationId": "TransactionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}": {
+            "get": {
+                "summary": "Get Transactions",
+                "description": "\/transactions\/{transactionid}.",
+                "operationId": "TransactionsByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Transactions",
+                "description": "Update an unsettled transaction",
+                "operationId": "TransactionsByTransactionIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "status",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "amountBase",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "amountShipping",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "amountTip",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "amountReject",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "amountTax",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/notes": {
+            "get": {
+                "summary": "Get Transactions Notes",
+                "description": "Get a list of notes for a transaction",
+                "operationId": "TransactionsNotesByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Transactions Notes",
+                "description": "\/transactions\/{transactionid}\/notes\/.",
+                "operationId": "TransactionsNotesByTransactionIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "note",
+                        "in": "formData",
+                        "description": "Max Length 2048"
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/notes\/{noteId}": {
+            "get": {
+                "summary": "Get Transactions Notes",
+                "description": "\/transactions\/{transactionid}\/notes\/{noteid}.",
+                "operationId": "TransactionsNotesByTransactionIdAndNoteIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "noteId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Transactions Notes",
+                "description": "\/transactions\/{transactionid}\/notes\/{noteid}.",
+                "operationId": "TransactionsNotesByTransactionIdAndNoteIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "note",
+                        "in": "formData",
+                        "description": "Max Length 2048"
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "noteId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Transactions Notes",
+                "description": "\/transactions\/{transactionid}\/notes\/{noteid}.",
+                "operationId": "TransactionsNotesByTransactionIdAndNoteIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "noteId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/signature\/capture": {
+            "post": {
+                "summary": "Post Transactions Signature Capture",
+                "description": "Capture a signature using the scriptel signature capture",
+                "operationId": "TransactionsSignatureCaptureByTransactionIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "signature",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/latest\/email": {
+            "post": {
+                "summary": "Post Transactions Receipts Latest Email",
+                "description": "\/transactions\/{transactionid}\/receipts\/latest\/email.",
+                "operationId": "TransactionsReceiptsLatestEmailByTransactionIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "to",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "replyTo",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "requestSignature",
+                        "in": "formData",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts": {
+            "get": {
+                "summary": "Get Transactions Receipts",
+                "description": "Get all of the signed receipts for a transaction.",
+                "operationId": "TransactionsReceiptsByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/latest": {
+            "get": {
+                "summary": "Get Transactions Receipts Latest",
+                "description": "Retrieve the most recent version of the receipt.",
+                "operationId": "TransactionsReceiptsLatestByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/latest\/thermal": {
+            "get": {
+                "summary": "Get Transactions Receipts Latest Thermal",
+                "description": "Get the most recent version of the thermal receipt HTML Document",
+                "operationId": "TransactionsReceiptsLatestThermalByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/latest\/fullpage": {
+            "get": {
+                "summary": "Get Transactions Receipts Latest Fullpage",
+                "description": "Get the most recent version of the full page (8.5x11) receipt HTML document",
+                "operationId": "TransactionsReceiptsLatestFullpageByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/unsigned": {
+            "get": {
+                "summary": "Get Transactions Receipts Unsigned",
+                "description": "\/transactions\/{transactionid}\/receipts\/unsigned.",
+                "operationId": "TransactionsReceiptsUnsignedByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/unsigned\/thermal": {
+            "get": {
+                "summary": "Get Transactions Receipts Unsigned Thermal",
+                "description": "\/transactions\/{transactionid}\/receipts\/unsigned\/thermal.",
+                "operationId": "TransactionsReceiptsUnsignedThermalByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipts\/unsigned\/fullpage": {
+            "get": {
+                "summary": "Get Transactions Receipts Unsigned Fullpage",
+                "description": "\/transactions\/{transactionid}\/receipts\/unsigned\/fullpage.",
+                "operationId": "TransactionsReceiptsUnsignedFullpageByTransactionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/{transactionId}\/receipt\/{receiptId}": {
+            "get": {
+                "summary": "Get Transactions Receipt Receiptid",
+                "description": "\/transactions\/{transactionid}\/receipts\/{receiptid}.",
+                "operationId": "TransactionsReceiptByTransactionIdAndReceiptIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "transactionId",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "receiptId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/webhooks": {
+            "get": {
+                "summary": "Get Webhooks",
+                "description": "Gets a list of webhooks",
+                "operationId": "WebhooksGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Webhooks",
+                "description": "\/webhooks\/{webhooks}.",
+                "operationId": "WebhooksPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "event",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "url",
+                        "in": "formData",
+                        "description": "Text, URL with max length 255. URL cannot contain a port and must be HTTPS.\n\nThe URL that webhook events will be posted to.\n\nFor testing and initial development, HTTP URLs from http:\/\/requestcatcher.com\/ can be used."
+                    },
+                    {
+                        "name": "secret",
+                        "in": "formData",
+                        "description": "Text, max length 255.\n\nIf set, All webhooks sent will include a \"X-Pj-Signature\" header with the post. The value of the header is a HMAC hash of the entire json payload using the SHA 256 algorithm, using the secret as the secret key."
+                    }
+                ]
+            }
+        },
+        "\/webhooks\/{webhookId}": {
+            "put": {
+                "summary": "Put Webhooks",
+                "description": "\/webhooks\/{webhookid}.",
+                "operationId": "WebhooksByWebhookIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "url",
+                        "in": "formData",
+                        "description": "Text, URL with max length 255. URL cannot contain a port and must be HTTPS.\n\nThe URL that webhook events will be posted to.\n\nFor testing and initial development, HTTP URLs from http:\/\/requestcatcher.com\/ can be used."
+                    },
+                    {
+                        "name": "secret",
+                        "in": "formData",
+                        "description": "Text, max length 255.\n\nIf set, All webhooks sent will include a \"X-Pj-Signature\" header with the post. The value of the header is a HMAC hash of the entire json payload using the SHA 256 algorithm, using the secret as the secret key."
+                    },
+                    {
+                        "name": "webhookId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Webhooks",
+                "description": "\/webhooks\/{webhookid}.",
+                "operationId": "WebhooksByWebhookIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "webhookId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/terminals": {
+            "get": {
+                "summary": "Get Terminals",
+                "description": "Get a list of Terminal Id's for an account.",
+                "operationId": "TerminalsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/smartterminals\/{smartTerminaIId}\/request-payment": {
+            "post": {
+                "summary": "Post Smart Trminals Request Payment",
+                "description": "\/smartterminals\/{smartterminald}\/request-payment.",
+                "operationId": "SmartterminalsRequestPaymentBySmartTerminaIIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "amountBase",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "terminalId",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "invoiceNumber",
+                        "in": "formData",
+                        "description": "Numeric\nAn invoice number to include in the transaction details."
+                    },
+                    {
+                        "name": "showReceiptPrompt",
+                        "in": "formData",
+                        "description": "true | false\n\ntrue - Displays the receipt prompt.\nfalse - Disables the receipt prompt.\n\n* Default value is true if a parameter is not sent."
+                    },
+                    {
+                        "name": "smartTerminaIId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/smartterminals\/{smartTerminaIId}\/main": {
+            "post": {
+                "summary": "Post Smart Terminals Main",
+                "description": "Returns the Smart Terminal to the main \"Smart Terminal by PayJunction\" screen to await a new transaction request. \n\nFor instance, this request can be used when a user decides to cancel a Smart Terminal payment request. When this request is sent, the Smart Terminal will return to the main screen that reads \"Smart Terminal by PayJunction\", preventing the customer from making a payment.\n\nNote: If the customer has already inserted the chip card, or swiped the card, then the transaction is already pr",
+                "operationId": "SmartterminalsMainBySmartTerminaIIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "smartTerminaIId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/smartterminals": {
+            "get": {
+                "summary": "Get Smart Terminals",
+                "description": "Get a list of Smart Terminals for an account",
+                "operationId": "SmartterminalsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/smartterminals\/requests\/{requestPaymentId}": {
+            "get": {
+                "summary": "Get Smart Terminals Requests",
+                "description": "Gets the status of a Smart Terminal payment request by querying the requestPaymentId returned by POST \/smartterminals\/{smartterminalId}\/request-payment\n\nThe status of a payment request can be queried up to 1 day after the Smart Terminal payment request has been completed. After this cut off the requestPaymentId is purged and will return a 404 Not Found when queried. \n\nIn order to discourage busy polling, requests to this endpoint are rate limited to 1 request every 2 seconds per request.",
+                "operationId": "SmartterminalsRequestsByRequestPaymentIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "requestPaymentId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
