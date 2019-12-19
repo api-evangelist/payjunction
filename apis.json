@@ -1,0 +1,75 @@
+{
+    "name": "PayJunction",
+    "description": "<p>PayJunction is a Level 1 PCI Compliant Service Provider that services thousands of businesses in every state in the United States. Since 2000, PayJunction has rapidly become a leading developer and provider of cutting edge merchant technology. PayJunction has also formed strategic alliances with leading financial institutions and technology partners to deliver the most comprehensive services in the industry.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/payjunction-logo.png",
+    "tags": [
+        "credit",
+        "have api",
+        "payments",
+        "pos",
+        "profile",
+        "relative data",
+        "service api",
+        "syndication",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/payjunction\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "PayJunction",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/payjunction-logo.png",
+            "humanURL": "http:\/\/payjunction.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/payjunction-api-basic-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/payjunction.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.payjunction.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.pathable.com\/category\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.pathable.com\/feeds\/posts\/default?alt=rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/payjunction"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developer.payjunction.com\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/PayJunction"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/PayJunction"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/payjunction.com\/"
+        }
+    ]
+}
