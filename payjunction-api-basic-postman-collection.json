@@ -1,5 +1,5 @@
 {
-    "id": "da46d7b4f8e94066db2c7395b24bbe20",
+    "id": "e3ca496730a289b401baaa599a604e80",
     "name": "PayJunction API Basic",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "203a37dea425296c40a0adf74e4a8149",
+            "id": "a8c3955f3b09a322e3b51cc5cc4a1a06",
             "name": "Get Customers",
             "url": "httpsexample.com\/\/customers",
             "description": "Gets a list of 15 customers",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "1b5bcdb3541622d939f59c109fd83b5e",
+            "id": "b1df6b1f7aeac55a71dcfeb611109031",
             "name": "Get Customers",
             "url": "httpsexample.com\/\/customers\/{customerId}",
             "description": "\/customers\/{customerid}.",
@@ -89,11 +89,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "b7f66660ed86ab4cb94e3075c54be0f3",
+            "id": "f09c4c98d7a56c6421cd1145f7e27e37",
             "name": "Put Customers",
             "url": "httpsexample.com\/\/customers\/{customerId}",
             "description": "\/customers\/{customerid}.",
@@ -211,11 +211,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "7ad589b2153427435480d5e74e47263c",
+            "id": "f2c988d09fd9457f810f120a71910143",
             "name": "Delete Customers",
             "url": "httpsexample.com\/\/customers\/{customerId}",
             "description": "\/customers\/{customerid}.",
@@ -249,11 +249,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "6bf64a8c9bc11c321f944dc97ebb81df",
+            "id": "415fa20c28fd3b3d66ea994cfb501ee3",
             "name": "Post Customers",
             "url": "httpsexample.com\/\/customers\/",
             "description": "Add a new customer",
@@ -357,11 +357,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "47fda8b401fc848bb5e000f9def31c5e",
+            "id": "229fd10936af11131b043beddb6c8fe6",
             "name": "Get Customers Notes",
             "url": "httpsexample.com\/\/customers\/{customerId}\/notes",
             "description": "\/customers\/{customerid}\/notes.",
@@ -409,11 +409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "61674d7d86438ade26f43e128c6b0137",
+            "id": "2d77818806d9f8e5c8a34b44f9902207",
             "name": "Post Customers Notes",
             "url": "httpsexample.com\/\/customers\/{customerId}\/notes",
             "description": "\/customers\/{customerid}\/notes.",
@@ -454,11 +454,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "d4b3c4472fe247ab50abb0a1c914c9ff",
+            "id": "4b305427af281c1b899a9964a32cda29",
             "name": "Get Customers Notes",
             "url": "httpsexample.com\/\/customers\/{customerId}\/notes\/{noteId}",
             "description": "\/customers\/{customerid}\/notes\/{noteid}.",
@@ -499,11 +499,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "26ba0d54906e770a15ea1d1cb03ebc00",
+            "id": "bb1d70bc6fda9321b170d0e631bf286c",
             "name": "Put Customers Notes",
             "url": "httpsexample.com\/\/customers\/{customerId}\/notes\/{noteId}",
             "description": "\/customers\/{customerid}\/notes\/{noteid}.",
@@ -558,11 +558,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "d26e972a0a65cfeba4725a771f23975d",
+            "id": "cdaa805f00ea33a1d1912e222c25b50b",
             "name": "Delete Customers Notes",
             "url": "httpsexample.com\/\/customers\/{customerId}\/notes\/{noteId}",
             "description": "\/customers\/{customerid}\/notes\/{noteid}.",
@@ -603,11 +603,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "7388b42b22e911754e5df32b5ebe86af",
+            "id": "07bdf6838f80c8948979c5895e5455d5",
             "name": "Get Customers Vaults",
             "url": "httpsexample.com\/\/customers\/{customerId}\/vaults\/",
             "description": "Retrieve customer's payment vaults",
@@ -641,11 +641,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "7c7d99e90ef43277b3d990e0dab40bb6",
+            "id": "0e1e679b0234f788facf62811b98f385",
             "name": "Get Customers Vaults",
             "url": "httpsexample.com\/\/customers\/{customerId}\/vaults\/{vaultId}",
             "description": "\/customers\/{customerid}\/vaults\/{vaultid}.",
@@ -686,11 +686,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "f81c691d513783b94a31d044edab85ef",
+            "id": "0eb197fb567aa7281f9feeba99d9741b",
             "name": "Delete Customers Vaults",
             "url": "httpsexample.com\/\/customers\/{customerId}\/vaults\/{vaultId}",
             "description": "\/customers\/{customerid}\/vaults\/{vaultid}.",
@@ -731,11 +731,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "6b96310c62421d026e0d5564b58307e8",
+            "id": "5c52b0914f59913e800bd22eb8a51dc4",
             "name": "Post Customers Vaults",
             "url": "httpsexample.com\/\/customers\/{customerId}\/vaults",
             "description": "\/customers\/{customerid}\/vaults (card).",
@@ -825,11 +825,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "81481d9d1aee3c589dc44d9d8d789cec",
+            "id": "0c89ce2cc6fbf5c00f3c51bedcf96465",
             "name": "Put Customers Vaults ACH Vault",
             "url": "httpsexample.com\/\/customers\/{customerId}\/vaults\/{achVault}",
             "description": "\/customers\/{customerid}\/vaults\/{vaultid} (ach).",
@@ -919,11 +919,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "149a5f5539218571ba85eb0e095a3eac",
+            "id": "d5ef1d9a507a3d06febf1cb66c2ac726",
             "name": "Put Customers Vaults Card Vault",
             "url": "httpsexample.com\/\/customers\/{customerId}\/vaults\/{cardVault}",
             "description": "\/customers\/{customerid}\/vaults\/{vaultid} (card).",
@@ -1013,11 +1013,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "0264e5cdaa222cb7f937bbcc14ad0a32",
+            "id": "c31635e81ab3ac0480b622400942502d",
             "name": "Get Customers Addresses",
             "url": "httpsexample.com\/\/customers\/{customerId}\/addresses",
             "description": "Gets a list of a customer's addresses.",
@@ -1051,11 +1051,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "43e3ebc91c0bcd2e2f93f3e07e06d264",
+            "id": "0a8ef91cd15c3bf6a8b8a24809c043f6",
             "name": "Post Customers Addresses",
             "url": "httpsexample.com\/\/customers\/{customerId}\/addresses",
             "description": "\/customers\/{customerid}\/addresses\/.",
@@ -1124,11 +1124,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "cd8288c155a2d4ff008b3b0f33169f08",
+            "id": "d2c465d0e9b2caaf583e88d837cb75ce",
             "name": "Get Customers Addresses",
             "url": "httpsexample.com\/\/customers\/{customerId}\/addresses\/{addressId}",
             "description": "\/customers\/{customerid}\/addresses\/{addressid}.",
@@ -1169,11 +1169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "ab3bbcdda306c86965261640fa0ebfd9",
+            "id": "9092f5afd9f46ad16848af4a642f87bc",
             "name": "Put Customers Addresses",
             "url": "httpsexample.com\/\/customers\/{customerId}\/addresses\/{addressId}",
             "description": "\/customers\/{customerid}\/addresses\/{addressid}.",
@@ -1249,11 +1249,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "a21e165b169a33d39004e4221d89979a",
+            "id": "cf3412bb6f086ac0ebffd277227d19bf",
             "name": "Delete Customers Addresses",
             "url": "httpsexample.com\/\/customers\/{customerId}\/addresses\/{addressId}",
             "description": "\/customers\/{customerid}\/addresses\/{addressid}.",
@@ -1301,11 +1301,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "a783e1cf0716a95897cf56470a5a33c8",
+            "id": "7fa99cd8ae3b2b1b9503626270daaaba",
             "name": "Post Transactions",
             "url": "httpsexample.com\/\/transactions",
             "description": "\/transactions\/ (swiped cc).",
@@ -1374,11 +1374,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "1f8d7787a330fd3d33b81d438a079cde",
+            "id": "f40eed488772d9cc45a914963aa5ed5b",
             "name": "Get Transactions",
             "url": "httpsexample.com\/\/transactions\/",
             "description": "Not Available At Time at Time of Publishing this collection: Get a list of transactions",
@@ -1419,11 +1419,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "031cbb707f45d974d215c4486d2dc12d",
+            "id": "070d12484917b124053229e8b51032b6",
             "name": "Get Transactions",
             "url": "httpsexample.com\/\/transactions\/{transactionId}",
             "description": "\/transactions\/{transactionid}.",
@@ -1457,11 +1457,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "07bc2e7100f64b56a1c703178d1fcbb2",
+            "id": "82ab0f2bdd2f948d1ab7cff13d62a50b",
             "name": "Put Transactions",
             "url": "httpsexample.com\/\/transactions\/{transactionId}",
             "description": "Update an unsettled transaction",
@@ -1544,11 +1544,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "94a5b6ed66502fa43cee6f71de6e9e3b",
+            "id": "4d3a161cbdf6dfd467c8124ec530d194",
             "name": "Get Transactions Notes",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/notes",
             "description": "Get a list of notes for a transaction",
@@ -1596,11 +1596,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "38d5c775570881df2e162b31ce8895aa",
+            "id": "0deb43c3bc558b07f59e13dd94de7c43",
             "name": "Post Transactions Notes",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/notes",
             "description": "\/transactions\/{transactionid}\/notes\/.",
@@ -1641,11 +1641,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "4e1bd174ad5835dd0416ce46bc70503d",
+            "id": "702fa30a2f3cac146b1d6ba769b69011",
             "name": "Get Transactions Notes",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/notes\/{noteId}",
             "description": "\/transactions\/{transactionid}\/notes\/{noteid}.",
@@ -1686,11 +1686,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "308f2496d65d1b36e6def7a33807690c",
+            "id": "e104131061dec83320e105c679f74e1e",
             "name": "Put Transactions Notes",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/notes\/{noteId}",
             "description": "\/transactions\/{transactionid}\/notes\/{noteid}.",
@@ -1738,11 +1738,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "177bfc9e945574fe069b0ab2b9667ba2",
+            "id": "d705193fefcaa5291d1957e556886ed3",
             "name": "Delete Transactions Notes",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/notes\/{noteId}",
             "description": "\/transactions\/{transactionid}\/notes\/{noteid}.",
@@ -1783,11 +1783,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "5645b0bd7f8a85a3c00199d59000ca4e",
+            "id": "0955d4fbbd20edfebc27ee001a520cc4",
             "name": "Post Transactions Signature Capture",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/signature\/capture",
             "description": "Capture a signature using the scriptel signature capture",
@@ -1828,11 +1828,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "83f0c1f9e5d007128c4a7d4b95c6bf05",
+            "id": "ee3666476daab2cbe6aeba95729ecd83",
             "name": "Post Transactions Receipts Latest Email",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/latest\/email",
             "description": "\/transactions\/{transactionid}\/receipts\/latest\/email.",
@@ -1887,11 +1887,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "571a5ce0565a412bdda3b9534358b4f4",
+            "id": "21427abadde7acd30ff8e5fda9551726",
             "name": "Get Transactions Receipts",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts",
             "description": "Get all of the signed receipts for a transaction.",
@@ -1925,11 +1925,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "59c8636552c6c7ed6a85e964e8698c8c",
+            "id": "7fbaa40ca4db19ceb200b920cb123c19",
             "name": "Get Transactions Receipts Latest",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/latest",
             "description": "Retrieve the most recent version of the receipt.",
@@ -1963,11 +1963,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "1a08d00c3ca5ce4808e2fed406ca08a0",
+            "id": "8a65347c47f26c0198d3946595f5df88",
             "name": "Get Transactions Receipts Latest Thermal",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/latest\/thermal",
             "description": "Get the most recent version of the thermal receipt HTML Document",
@@ -2001,11 +2001,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "5e257a91bb4ae94fa68f08760823f41e",
+            "id": "dd9f4c4068be15097c1e41682e796d6e",
             "name": "Get Transactions Receipts Latest Fullpage",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/latest\/fullpage",
             "description": "Get the most recent version of the full page (8.5x11) receipt HTML document",
@@ -2039,11 +2039,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "618c4ace3b7fb9824b9d9bd457c3a860",
+            "id": "1cb2ff70481db882ff6a04b391782131",
             "name": "Get Transactions Receipts Unsigned",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/unsigned",
             "description": "\/transactions\/{transactionid}\/receipts\/unsigned.",
@@ -2077,11 +2077,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "9a9ce9b62bcf04ee121c92aefb968573",
+            "id": "2419db5c34e5aa74e0d9f16e30a67bfe",
             "name": "Get Transactions Receipts Unsigned Thermal",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/unsigned\/thermal",
             "description": "\/transactions\/{transactionid}\/receipts\/unsigned\/thermal.",
@@ -2115,11 +2115,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "15c9c6e84de19e3e9e21c5354353ce81",
+            "id": "1da38228f518177d88a878b7f90e393f",
             "name": "Get Transactions Receipts Unsigned Fullpage",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipts\/unsigned\/fullpage",
             "description": "\/transactions\/{transactionid}\/receipts\/unsigned\/fullpage.",
@@ -2153,11 +2153,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "d70f03cfbc7e611d9588ec56934e9010",
+            "id": "e3caf14fbd61066ba88090ef7d84a3c6",
             "name": "Get Transactions Receipt Receiptid",
             "url": "httpsexample.com\/\/transactions\/{transactionId}\/receipt\/{receiptId}",
             "description": "\/transactions\/{transactionid}\/receipts\/{receiptid}.",
@@ -2198,11 +2198,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "b53686e3a7550549a4db4f466e2d8d9c",
+            "id": "d68871c8357cb21b223bdefab3c8836f",
             "name": "Get Webhooks",
             "url": "httpsexample.com\/\/webhooks",
             "description": "Gets a list of webhooks",
@@ -2229,11 +2229,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "61a7ada0a722b1e903667810aa29de0d",
+            "id": "28fc826aeba76afb6c218aca55abd161",
             "name": "Post Webhooks",
             "url": "httpsexample.com\/\/webhooks",
             "description": "\/webhooks\/{webhooks}.",
@@ -2281,11 +2281,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "d0580bf35ca2cfd9ff33593f8087bf71",
+            "id": "054eaabc9df6c53375d5cc78484bb920",
             "name": "Put Webhooks",
             "url": "httpsexample.com\/\/webhooks\/{webhookId}",
             "description": "\/webhooks\/{webhookid}.",
@@ -2333,11 +2333,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "57bb5ca00c27974d7dbef7ee56876b70",
+            "id": "4c718ce9bf8b3d491761d49218b31836",
             "name": "Delete Webhooks",
             "url": "httpsexample.com\/\/webhooks\/{webhookId}",
             "description": "\/webhooks\/{webhookid}.",
@@ -2371,11 +2371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "d6026f7ab8548ff89f765bc05c69dbf1",
+            "id": "25bb601c37ea759f993f570ff6ada3d5",
             "name": "Get Terminals",
             "url": "httpsexample.com\/\/terminals",
             "description": "Get a list of Terminal Id's for an account.",
@@ -2402,11 +2402,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "07beac5b4c87883c84a3784f81ff9e38",
+            "id": "5057332bce757dad42d2ec4a907b6df6",
             "name": "Post Smart Trminals Request Payment",
             "url": "httpsexample.com\/\/smartterminals\/{smartTerminaIId}\/request-payment",
             "description": "\/smartterminals\/{smartterminald}\/request-payment.",
@@ -2468,11 +2468,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "05e879484c573a1e1f71bd3898d3e502",
+            "id": "606d3c8046340937b5e0b5853c7962aa",
             "name": "Post Smart Terminals Main",
             "url": "httpsexample.com\/\/smartterminals\/{smartTerminaIId}\/main",
             "description": "Returns the Smart Terminal to the main \"Smart Terminal by PayJunction\" screen to await a new transaction request. \n\nFor instance, this request can be used when a user decides to cancel a Smart Terminal payment request. When this request is sent, the Smart Terminal will return to the main screen that reads \"Smart Terminal by PayJunction\", preventing the customer from making a payment.\n\nNote: If the customer has already inserted the chip card, or swiped the card, then the transaction is already pr",
@@ -2506,11 +2506,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "4df06a2900ac0e2b9e3ad168a53dc9f7",
+            "id": "44da77794b2583aba0bfdda0823c252d",
             "name": "Get Smart Terminals",
             "url": "httpsexample.com\/\/smartterminals",
             "description": "Get a list of Smart Terminals for an account",
@@ -2537,11 +2537,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         },
         {
-            "id": "d690ee167ad689a61045bf67e3805c8e",
+            "id": "e09fd8f7bc3a8633d55942b2f98d57ba",
             "name": "Get Smart Terminals Requests",
             "url": "httpsexample.com\/\/smartterminals\/requests\/{requestPaymentId}",
             "description": "Gets the status of a Smart Terminal payment request by querying the requestPaymentId returned by POST \/smartterminals\/{smartterminalId}\/request-payment\n\nThe status of a payment request can be queried up to 1 day after the Smart Terminal payment request has been completed. After this cut off the requestPaymentId is purged and will return a 404 Not Found when queried. \n\nIn order to discourage busy polling, requests to this endpoint are rate limited to 1 request every 2 seconds per request.",
@@ -2575,7 +2575,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "da46d7b4f8e94066db2c7395b24bbe20",
+            "collectionId": "e3ca496730a289b401baaa599a604e80",
             "rawModeData": ""
         }
     ]
